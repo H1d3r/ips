@@ -39,7 +39,7 @@ City Free (2018-11-18): https://raw.githubusercontent.com/ipipdotnet/ipdb-go/mas
 
 CZ88.NET
 qqwry.dat: https://github.com/HMBSbige/qqwry/releases/download/2023-11-01/qqwry.dat
-qqwry.dat Mirror 2: https://github.com/metowolf/qqwry.dat/releases/download/20231025/qqwry.dat
+qqwry.dat Mirror 2: https://github.com/metowolf/qqwry.dat/releases/latest/download/qqwry.dat
 
 MaxMind
 GeoLite2-City.mmdb (2023-10-16): https://github.com/P3TERX/GeoLite.mmdb/releases/latest/download/GeoLite2-City.mmdb (https://git.io/GeoLite2-City.mmdb)
@@ -58,13 +58,13 @@ dbip-asn-lite.mmdb (2023-11): https://download.db-ip.com/free/dbip-asn-lite-2023
 */
 
 var DownloadMap = map[string]string{
-	"city.free.ipdb":      "https://raw.githubusercontent.com/ipipdotnet/ipdb-go/master/city.free.ipdb",
-	"qqwry.dat":           "https://github.com/metowolf/qqwry.dat/releases/download/20231025/qqwry.dat",
-	"zxipv6wry.db":        "https://raw.githubusercontent.com/ZX-Inc/zxipdb-python/main/data/ipv6wry.db",
-	"GeoLite2-City.mmdb":  "https://git.io/GeoLite2-City.mmdb",
-	"ip2region.xdb":       "https://raw.githubusercontent.com/lionsoul2014/ip2region/master/data/ip2region.xdb",
-	"dbip-city-lite.mmdb": "https://download.db-ip.com/free/dbip-city-lite-2023-11.mmdb.gz",
-	"dbip-asn-lite.mmdb":  "https://download.db-ip.com/free/dbip-asn-lite-2023-11.mmdb.gz",
+	"city.free.ipdb":      "https://ghfast.top/raw.githubusercontent.com/ipipdotnet/ipdb-go/master/city.free.ipdb",
+	"qqwry.dat":           "https://ghfast.top/github.com/metowolf/qqwry.dat/releases/latest/download/qqwry.dat",
+	"zxipv6wry.db":        "https://ghfast.top/github.com/winezer0/cdninfo/raw/refs/heads/main/assets/zxipv6wry.db",
+	"GeoLite2-City.mmdb":  "https://ghfast.top/raw.githubusercontent.com/adysec/IP_database/main/geolite/GeoLite2-City.mmdb",
+	"ip2region.xdb":       "https://ghfast.top/raw.githubusercontent.com/lionsoul2014/ip2region/master/data/ip2region.xdb",
+	"dbip-city-lite.mmdb": "https://raw.githubusercontent.com/adysec/IP_database/main/db-ip/dbip-city-lite.mmdb",
+	"dbip-asn-lite.mmdb":  "https://raw.githubusercontent.com/adysec/IP_database/main/db-ip/dbip-asn-lite.mmdb",
 }
 
 // Download downloads the database file to ips dir.
